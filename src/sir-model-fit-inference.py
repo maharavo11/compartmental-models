@@ -27,7 +27,7 @@ stan_data = {
     "cases": df.in_bed
 }
 
-sir_model = CmdStanModel(stan_file = 'sir_model.stan')
+sir_model = CmdStanModel(stan_file = 'sir-model.stan')
 
 # Fitting
 fit_sir_model = sir_model.sample(data = stan_data,
