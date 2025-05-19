@@ -28,7 +28,7 @@ stan_data = {
 }
 
 # Fitting
-sir_model_prior = CmdStanModel(stan_file = 'sir_model_prior.stan')
+sir_model_prior = CmdStanModel(stan_file = 'sir-model-prior.stan')
 prior_check = sir_model_prior.sample(data = stan_data,
                                      iter_sampling = 2000,
                                      chains = 4,
