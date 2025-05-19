@@ -27,7 +27,7 @@ seir_data = {
     "cases": df.in_bed
 }
 
-seir_model = CmdStanModel(stan_file = 'seir_prevalence.stan')
+seir_model = CmdStanModel(stan_file = 'seir-prevalence.stan')
 
 fit_seir_model = seir_model.sample(data = seir_data,
                                    iter_sampling = 2000,
