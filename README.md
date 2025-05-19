@@ -2,7 +2,7 @@
 
 # Epidemiological Modeling with CmdStanPy: SIR and SEIR Models
 
-This project demonstrates how to fit Susceptible-Infected-Recovered (SIR) and Susceptible-Exposed-Infected-Recovered (SEIR) epidemiological models to outbreak data using `cmdstanpy`. The analysis is performed on flu and simulated incidence data from [StatML4Pophealth](https://raw.githubusercontent.com/MLGlobalHealth/StatML4PopHealth/main/practicals/day4/practical5/data).
+This project demonstrates how to fit Susceptible-Infected-Recovered (SIR) and Susceptible-Exposed-Infected-Recovered (SEIR) epidemiological models to outbreak data using `cmdstanpy`. The analysis is performed on flu and simulated incidence data from [StatML4Pophealth](https://github.com/MLGlobalHealth/StatML4PopHealth)).
 
 ## Installation
 
