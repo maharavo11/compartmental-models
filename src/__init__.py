@@ -8,3 +8,8 @@ import shutil
 import urllib.request
 
 from cmdstanpy import CmdStanModel
+
+import logging
+
+cmdstanpy_logger = logging.getLogger("cmdstanpy")
+cmdstanpy_logger.disabled = True
