@@ -1,4 +1,3 @@
-# compartmental-models
 
 # Epidemiological Modeling with CmdStanPy: SIR and SEIR Models
 
